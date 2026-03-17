@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarbin Tharu | Professional Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar">
+    <h2 class="logo"><img src="./logo portfolio.png"height="60px" width="60px"></h2>
+       <ul class="nav-links">
+     <li><a href="#Home">Home</a></li>
+     <li><a href="#Services">Services</a></li>
+     <li><a href="#Projects">Projects</a></li>
+     <li><a href="#About">About</a></li>
+     <li><a href="#Contact">Contact</a></li>
+    </ul>
+</nav>
+<section class="pages" id="Home"></section>
+<section class="pages" id="Services"></section>
+<section class="pages" id="Projects"></section>
+ <section class="pages" id="About"></section> 
+ <section class="pages" id="Contact"></section>
+
+     <!-- Hamburger -->
+
+    <div class="hamburger" onclick="toggleMenu()">
+        <i class="fa-solid fa-bars"></i>
+    </div> 
+    
+<!-- Hero Section -->
+<section id="home" class="hero">
+    <h1>Hello, I'm <span>Sarbin Tharu</span></h1>
+    <p>IT Student | Web Developer | Programmer</p>
+    <a href="./sarbin.pdf" class="btn">Download CV</a>
+
+    <div class="social-icons">
+    <a href="https://github.com/sarbintharu17" target="_blank">
+        <i class="fab fa-github"></i>
+    </a>
+
+    <a href="https://www.linkedin.com/in/sarbintharu" target="_blank">
+        <i class="fab fa-linkedin"></i>
+    </a>
+
+    <a href="https://www.instagram.com/sarbeen_17/" target="_blank">
+        <i class="fab fa-instagram"></i>
+    </a>
+</div>
+</div>
+</section>
+
+<!-- About -->
+<section id="about" class="section fade-in">
+    <div class="about-container">
+
+        <img src="./sarbin.jpeg" alt="Profile Photo">
+
+        <div class="about-text">
+            <h2>About Me</h2>
+
+            <p>
+                Hello! I am an IT student who is passionate about technology and learning how computers work.
+                I am interested in web development, programming, and problem solving.
+                I enjoy creating simple websites and programs while improving my technical skills.
+            </p>
+
+            <p>
+                Currently, I am studying Information Technology and continuously learning new tools
+                and programming languages such as HTML, CSS, and C programming.
+                My goal is to become a skilled IT professional and contribute to innovative technology projects.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="services" class="section fade-in">
+    <h2 class="section-title">Services</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <i class="fas fa-code service-icon"></i>
+            <h3>Web Development</h3>
+            <p>I create responsive and modern websites using HTML, CSS and JavaScript.</p>
+        </div>
+
+        <div class="card">
+            <i class="fas fa-laptop-code service-icon"></i>
+            <h3>Programming</h3>
+            <p>I develop console based applications using C programming language.</p>
+        </div>
+
+        <div class="card">
+            <i class="fas fa-database service-icon"></i>
+            <h3>Database Basics</h3>
+            <p>Basic knowledge of database design and data management.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- Skills -->
+<section id="skills" class="section fade-in">
+    <h2 class="section-title">Skills</h2>
+    <div class="grid">
+        <div class="card">HTML & CSS</div>
+        <div class="card">C Programming</div>
+        <div class="card">Database Basics</div>
+        <div class="card">Problem Solving</div>
+    </div>
+</section>
+
+<!-- Projects -->
+<section id="projects" class="section fade-in">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="grid">
+
+        <div class="card project-card">
+            <img src="./portfolio.jpg" alt="Portfolio Project">
+            <h3>Portfolio Website</h3>
+            <p>Modern responsive portfolio website.</p>
+            <a href="#" class="btn-small">View Code</a>
+        </div>
+
+        <div class="card project-card">
+            <img src="./student.jpg" alt="Student System">
+            <h3>Student Management System</h3>
+            <p>Console based project using C programming.</p>
+            <a href="#" class="btn-small">View Code</a>
+        </div>
+
+    </div>
+</section>
+<!-- Contact -->
+<section id="contact" class="section fade-in">
+
+<h2 class="section-title">Let's Join</h2>
+
+<div class="contact-container">
+
+<form>
+
+<input type="text" placeholder="Your Name" required>
+
+<input type="email" placeholder="Your Email" required>
+
+<textarea placeholder="Your Message" rows="5"></textarea>
+
+<button type="submit" class="btn">Send Message</button>
+
+</form>
+
+<div class="contact-info">
+
+<p><i class="fas fa-envelope"></i> sarbintharu852@email.com</p>
+
+<p><i class="fas fa-phone"></i> 9829646724</p>
+
+<p><i class="fas fa-location-dot"></i> Kathmandu, Nepal</p>
+
+</div>
+
+</div>
+
+</section>
+<script>
+function toggleMenu() {
+    document.getElementById("nav-links").classList.toggle("active");
+}
+</script>
+
+<footer>
+    <p>© 2026 Sarbin Tharu | All Rights Reserved</p>
+</footer>
+</body>
+</html>
